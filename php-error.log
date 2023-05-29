@@ -1463,3 +1463,50 @@ Stack trace:
 [29-May-2023 17:27:03 UTC] Hello, errors!
 [29-May-2023 17:27:03 UTC] merr<----
 [29-May-2023 17:27:04 UTC] Hello, errors!
+[29-May-2023 18:45:42 UTC] Hello, errors!
+[29-May-2023 18:45:42 UTC] hola a todos
+[29-May-2023 18:45:43 UTC] Hello, errors!
+[29-May-2023 18:46:10 UTC] Hello, errors!
+[29-May-2023 18:46:11 UTC] hola a todos
+[29-May-2023 18:46:11 UTC] Hello, errors!
+[29-May-2023 18:46:30 UTC] Hello, errors!
+[29-May-2023 18:46:30 UTC] Hello, errors!
+[29-May-2023 18:46:37 UTC] Hello, errors!
+[29-May-2023 18:46:38 UTC] holaaaaaaaa soy meri
+[29-May-2023 18:46:38 UTC] Hello, errors!
+[29-May-2023 18:46:56 UTC] Hello, errors!
+[29-May-2023 18:47:22 UTC] Hello, errors!
+[29-May-2023 18:47:33 UTC] Hello, errors!
+[29-May-2023 18:47:33 UTC] Hello, errors!
+[29-May-2023 18:48:40 UTC] Hello, errors!
+[29-May-2023 18:48:40 UTC] Hello, errors!
+[29-May-2023 18:49:10 UTC] Hello, errors!
+[29-May-2023 18:50:41 UTC] Hello, errors!
+[29-May-2023 18:50:41 UTC] Hello, errors!
+[29-May-2023 18:50:49 UTC] Hello, errors!
+[29-May-2023 18:50:49 UTC] user logged in
+[29-May-2023 18:50:49 UTC] Hello, errors!
+[29-May-2023 18:51:43 UTC] Hello, errors!
+[29-May-2023 18:51:43 UTC] PHP Warning:  Undefined array key -1 in C:\laragon\www\redsocial\src\lib\UtilImages.php on line 8
+[29-May-2023 18:51:43 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in C:\laragon\www\redsocial\src\lib\UtilImages.php:12
+Stack trace:
+#0 C:\laragon\www\redsocial\src\lib\UtilImages.php(12): getimagesize('')
+#1 C:\laragon\www\redsocial\src\controllers\Home.php(29): Cocol\Redsocial\lib\UtilImages::storeImage(Array)
+#2 C:\laragon\www\redsocial\src\lib\routes.php(67): Cocol\Redsocial\controllers\Home->store()
+#3 [internal function]: {closure}()
+#4 C:\laragon\www\redsocial\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#5 C:\laragon\www\redsocial\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 C:\laragon\www\redsocial\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#7 C:\laragon\www\redsocial\src\lib\routes.php(97): Bramus\Router\Router->run()
+#8 C:\laragon\www\redsocial\index.php(14): require('C:\\laragon\\www\\...')
+#9 {main}
+  thrown in C:\laragon\www\redsocial\src\lib\UtilImages.php on line 12
+[29-May-2023 18:51:45 UTC] Hello, errors!
+[29-May-2023 18:52:27 UTC] Hello, errors!
+[29-May-2023 18:52:27 UTC] Hello, errors!
+[29-May-2023 18:53:17 UTC] Hello, errors!
+[29-May-2023 18:53:21 UTC] Hello, errors!
+[29-May-2023 18:53:24 UTC] Hello, errors!
+[29-May-2023 18:53:29 UTC] Hello, errors!
+[29-May-2023 18:53:43 UTC] Hello, errors!
+[29-May-2023 18:53:44 UTC] Hello, errors!
